@@ -1,4 +1,5 @@
 @media screen and (max-width:400px){
+  /* nav responsive start here */
   .nav-container{
     flex-direction: column;
   }
@@ -15,5 +16,36 @@
     width: 100%;
     text-align: center;
   }
+   /* nav responsive End here */
+
+  /* Banner responsive start here */
+
+  .banner-container{
+    flex-direction: column;
+    align-items: center;
+  }
+  .banner-text,.banner-img{
+    width: 100%;
+  }
+  .banner-text h1{
+    font-size: 30px;
+  }
+  .banner-text p{
+    font-size: 20px;
+  }
+  .fa-brands{
+    font-size: 35px;
+  }
+  .banner-img{
+    margin-top: 10px;
+  }
+
+
+
+  /* Banner responsive end here */
+
+
+
+
 
 }
