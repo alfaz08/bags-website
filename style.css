@@ -197,3 +197,28 @@ nav{
 }
 
 /* Customer Review Section */
+
+.review-container{
+  border: 1px solid red;
+  gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #e893cf;
+  justify-content: center;
+  align-content: center;
+}
+.single-review{
+  border: 1px solid purple;
+  flex-basis:300px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.single-review img{
+  width: 60px;
+  height: 60px;
+}
+.top-review{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+}
