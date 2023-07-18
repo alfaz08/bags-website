@@ -1,0 +1,59 @@
+*{
+  
+  box-sizing: border-box;
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body{
+  font-family: 'Lato', sans-serif;
+}
+/* navbar start rightside */
+nav{
+  background-color: #5b30d3;
+
+}
+.nav-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.logo-container{
+
+   display: flex;
+   width: 50%;
+}
+.logo-container img{
+  width: 50px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+.logo-container p{
+  font-size: 30px;
+ 
+}
+/* Navbar Leftside */
+.nav-item-container{
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-item-container a{
+  text-decoration: none;
+ color: white;
+ font-size: 18px;
+}
+.hive-section{
+  color: #e893cf;
+}
+.nav-item-container .login-btn{
+  background-color: #e893cf;
+  padding: 10px 15px;
+  font-weight: 700;
+  border-radius: 5px;
+  color: black;
+}
+
+
