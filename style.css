@@ -149,3 +149,51 @@ nav{
   border-radius: 50%;
   padding-left:5px ;
 }
+
+/* Discount section with full width start here */
+
+.discount-section{
+  background-color: #9376e0;
+  min-height: 500px;
+  padding: 20px 0;
+  margin-top: 20px;
+}
+
+.discount-container{
+  max-width: 1400px;
+  margin:0 auto;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  
+}
+.discount-img{
+  width: 50%;
+  position: relative;/*jake kendro kore position change hobe se hobe relative
+                        ar jar position change hobe se hobe absolute*/
+}
+.discount-img img{
+  width: 70%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.discount-text{
+    text-align: justify;
+    width: 50%;
+}
+.discount-number{
+  background-color: yellowgreen;
+  height: 60px;
+  width: 60px;
+  font-size: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;/*Absolute mane tar original position onujai move korbe sob dike*/
+  left: 70%;
+  top: 6%;
+}
+
+/* Customer Review Section */
