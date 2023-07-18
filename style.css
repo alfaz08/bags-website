@@ -110,3 +110,42 @@ nav{
   border: 2px solid #e893cf;
   margin-right: 20px;
 }
+
+/* Products sections start here */
+.grid-container{
+  
+  min-height: 400px;
+  max-width: 1400px;
+  margin: 50px auto 0;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 15px;
+}
+.single-product{
+  background-color: rgb(200, 211, 223);
+  border-radius: 10px;
+  padding:0 10px;
+  box-shadow: 2px 2px 4px black;
+}
+.single-product img{
+  width: 70%;
+  display: block;
+  margin: auto;
+  
+}
+.product-icon-name-container{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.product-icon{
+  font-size: 22px;
+  
+}
+.product-icon-name-container span{
+  padding: 10px;
+  background-color: #e893cf;
+  border-radius: 50%;
+  padding-left:5px ;
+}
